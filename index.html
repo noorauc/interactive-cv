@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Wael | Interactive CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Noor Wael" class="profile">
+    <h1>Noor Wael</h1>
+    <p class="subtitle">Management Information & Communication Technology Student</p>
+</header>
+
+<main>
+    <div style="text-align: right; margin-bottom: 15px;">
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </div>
+
+    <section>
+        <h3>Profile</h3>
+        <p>
+            I am a Management Information and Communication Technology student at the American University in Cairo, expected to graduate in 2026. 
+            I am passionate about technology, business strategy, and digital innovation.
+        </p>
+    </section>
+
+    <section>
+        <h3>Education</h3>
+        <p>
+            <strong>American University in Cairo</strong><br>
+            Bachelor of Science in Management Information & Communication Technology<br>
+            <em>Expected Graduation: 2026</em>
+        </p>
+    </section>
+
+    <section id="skills-section">
+        <h3>Skills</h3>
+        <ul id="skills-list">
+            <li>C & C++ Programming</li>
+            <li>SQL & Database Management</li>
+            <li>Power BI</li>
+            <li>GitHub</li>
+        </ul>
+        <div class="skill-controls" style="margin-top: 15px;">
+            <input type="text" id="skill-input" placeholder="Enter new skill...">
+            <button id="add-skill-btn">Add Skill</button>
+        </div>
+    </section>
+
+    <section>
+        <h3>Projects & Experience</h3>
+        <ul>
+            <li><strong>Super Mario Game:</strong> Developed using C++</li>
+            <li><strong>Concert Ticket Website:</strong> Full-stack web project</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Name" required style="display:block; width:100%; margin-bottom:10px; padding:8px;">
+            <input type="email" id="email" placeholder="Email" required style="display:block; width:100%; margin-bottom:10px; padding:8px;">
+            <textarea id="message" placeholder="Your Message" required style="display:block; width:100%; margin-bottom:10px; padding:8px;"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-feedback" style="margin-top:10px; font-weight:bold;"></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Noor Wael | Built for Web-Based Systems Assignment</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
